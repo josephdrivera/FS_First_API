@@ -1,0 +1,30 @@
+{
+  "name": "fs_first_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephdrivera/FS_First_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephdrivera/FS_First_API/issues"
+  },
+  "homepage": "https://github.com/josephdrivera/FS_First_API#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "exppress": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
