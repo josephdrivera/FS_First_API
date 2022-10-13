@@ -8,7 +8,7 @@ const toDoService = async () => {
 
 const toDoServiceById = async (id) => {
     console.log('To Do Service By Id is working');
-    return await axios.get(`${process.env.TODO_SERVICE_URL}${id}`);
+    return await axios.get(`${process.env.TODO_SERVICE_URL}/${id}`);
 };
 
 
